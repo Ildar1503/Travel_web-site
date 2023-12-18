@@ -5,3 +5,8 @@
 }
 
 /* header */
+.navigation_container
+{
+    justify-content: space-around;    
+    display: flex;
+}
