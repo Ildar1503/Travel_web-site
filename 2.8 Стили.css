@@ -9,6 +9,13 @@ a{
     color: black;
 }
 
+a:hover
+{
+    color: burlywood;
+    font-weight: bold;
+    font-size: larger;
+}
+
 /* header */
 .navigation_container
 {
@@ -161,4 +168,22 @@ footer div
 {
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width: 480px)
+{
+    .top_container
+    {
+        flex-wrap: wrap;
+    }  
+    .category
+    {
+        flex-wrap: wrap;
+    }  
+    .destination_container
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
